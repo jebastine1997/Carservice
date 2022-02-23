@@ -1,0 +1,613 @@
+
+.contact
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact li
+{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+
+.contactlist
+{
+    margin-left: auto;
+}
+
+.contacttime
+{
+    padding-left: 1.2rem;
+    flex-shrink: 3;
+}
+
+.social
+{
+    padding-right: 1.2rem;
+}
+
+.iconsize
+{
+    color: whitesmoke;
+}
+
+.logo
+{
+    height: 5rem;
+    width: 12rem;
+}
+
+.bgsize
+{
+    height: 33rem;
+    z-index: -10000;
+}
+
+.logotext
+{
+    position: absolute;
+    left: 19rem;
+    top: 7rem;
+    z-index: 100000;
+}
+
+#l1
+{
+    background-color: yellow;
+    display: inline-block;
+    height: 3.5rem;
+    padding: 0.5rem 0.9rem 1rem 1.2rem;
+    font-style: italic;
+}
+
+#l2
+{
+    color: white;
+    font-size: 3.5rem;
+    
+}
+
+#btn1
+{
+    background-color: rgba(6, 137, 245, 0.904);
+    font-weight: bolder;
+    border-color: aqua;
+    height: 3rem;
+    width: 10rem;
+    margin-top: 0.7rem;
+}
+
+.image
+{
+    overflow: hidden;
+    position:relative;
+}
+
+.info
+{
+    background-color: rgb(7, 140, 250);    
+    color: white;
+    position: absolute;
+    width: 18.8rem;
+    height: 100%;
+    top: 10.5rem;
+    text-align: center;
+    left: 10.2rem;
+    transform: translateX(-50%);
+    transition: all .5s cubic-bezier(0.17, 0.8, 0.62, 1.52);
+   
+}
+
+.image:hover .info
+{
+    top: 7.1rem;
+    left: 10.2rem;
+}
+
+.aptsection
+{
+    background-color: rgba(7, 120, 250, 0.767);
+    width: 91%;
+}
+
+.para1
+{
+    padding: 3rem 0 3rem 0;
+}
+.btns
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#aptbtn1
+{
+    background-color: aqua;
+    color: white;
+    height: 3.5rem;
+    width: 12rem;
+    font-weight: bold;
+    margin-right: 1.5rem;
+}
+
+#aptbtn2
+{
+    height: 3.5rem;
+    width: 13rem;
+    font-weight: bold;
+}
+
+#pimg
+{
+    position: absolute; margin-left: 0.5rem;
+}
+
+#pimg1
+{
+    height: auto; max-width: 100%;
+}
+
+#pimg2
+{
+    height: auto; max-width: 100%;
+    margin-top: 0.5rem;
+}
+
+.pbtn1
+{   
+    
+    margin: 18.5rem 0 0rem 3.5rem;
+    color: black;
+}
+
+.pbtn2
+{   
+    
+    margin: 11.5rem 0 0rem 3.5rem;
+}
+
+.pbtn3
+{   
+    
+    margin: 6rem 0 0rem 3.5rem;
+}
+.pbtn4
+{   
+    
+    margin: 1rem 0 0rem 3.5rem;
+}
+
+.price
+{
+    font-size: 4vw;
+    font-weight: normal;
+}
+.ptitle
+{
+    border-bottom: 1px solid gray;
+    padding: 1.5rem 0 1.5rem;
+    font-weight: bold;
+}
+
+.pricesec
+{
+    width: 100%;
+}
+
+.pricesec:hover .ptitle 
+{
+    background-color: rgba(37, 28, 168, 0.795);
+}
+
+.feedback
+{
+    background-color: rgba(128, 128, 128, 0.24);
+    margin-top: 5rem;
+}
+
+#feh1
+{
+    color: black    ;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size:  2.8rem;
+    font-weight: 700;
+}
+
+.feedp1
+{
+    border-radius: 5%;
+    background-color: white;
+    height: auto;
+    font-size: 1.vw;
+    width: 15rem;
+    margin-left: 7.5rem;
+    margin-bottom: 7rem;
+    padding: 2.2rem 2rem 1.5rem 2rem;
+    text-align: center;
+}
+
+.feedp2
+{
+    border-radius: 5%;
+    height: auto;
+    font-size: 1.vw;
+    background-color: white;
+    width: 15rem;
+    margin-left: 5.5rem;
+    margin-bottom: 7rem;
+    padding: 2.2rem 2rem 1.5rem 2rem;
+    text-align: center;
+}
+
+.feedp3
+{
+    border-radius: 5%;
+    height: auto;
+    background-color: white;
+    padding: 2.2rem 2rem 1.5rem 2rem;
+    font-size: 1.vw;
+    width: 15rem;
+    margin-left: 3rem;
+    margin-bottom: 7rem;
+    padding-left: 2rem;
+    text-align: center;
+}
+
+
+.cus1
+{
+    font-size: 1rem;
+    font-size: 0.82rem;
+}
+
+.mfooter
+{
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 3.5rem;
+    justify-content: space-between;
+    background: no-repeat;
+    background-size: cover;
+}
+
+.ficons
+{
+    display: flex;
+}
+
+
+.fbgimg
+{
+    background-image: url(images/footer.jpg);
+    z-index: -10000;
+    position: relative;
+}
+.shade
+{
+    background-color: rgba(0, 110, 255, 0.438);
+    width: 100%;
+    
+}
+#copyrt
+{
+    margin-top: 2rem;
+    font-size: 1.1rem;
+}
+
+#uselinks
+{
+    padding-bottom: 1rem; font-weight: 700;
+}
+
+#contactlinks
+{
+    padding-top: 4rem;
+}
+
+.lists
+{
+    list-style: none;
+    font-weight: bold;
+}
+/* Media Queries starts here */
+@media (max-width:1152px)
+{
+    .contact li
+    {
+        margin-top: 0.2rem;
+        margin-bottom: 0.2rem;
+    }
+    .contactlist
+    {
+        margin-left: 0.5rem;
+    }
+
+    .contacttime
+    {
+        padding-left: 0.4rem;
+    }
+
+    .logo
+    {
+        height: 2.5rem;
+        width: 7rem;
+    }
+
+    .logotext
+    {
+        left: 12rem;
+        top: 8rem;
+    }
+
+    #l1
+    {
+        font-size: 1.8rem;
+        height: 2.5rem;
+        padding: 0.5rem 0.9rem 3rem 1.2rem;
+    }
+
+    #l2
+    {
+        font-size: 2.9rem;
+    }
+
+    #btn1
+    {
+        height: 2.3rem;
+        width: 8rem;
+        margin-top: 0.5rem;
+    }
+
+    .info
+    {
+        top: 11.2rem;
+    }
+
+    .pricesec
+    {
+        /* margin-left: 5.5rem; */
+        padding-top: 2.2rem;
+    }
+    #feh1
+    {
+        font-size: 2.5rem;
+    }
+
+    .feedp1
+    {
+        margin-left: 5.5rem;
+    }
+
+    .feedp2
+    {
+        margin-left: 2.2rem;
+    }
+    .feedp3
+    {
+        margin-left: 5.5rem;
+    }
+
+    .lists
+    {
+        font-size: 0.7rem;
+        
+    }
+    
+    #copyrt
+    {
+        margin-top: 1rem;
+        font-size: 0.8rem;
+    }
+
+    #uselinks
+    {
+        padding-bottom: 0.8rem; font-weight: 500;
+    }
+    .svgicons
+    {
+        height: 2rem;
+        width: 3rem;
+        margin-left: 1.5rem;
+    }
+}
+
+@media (max-width:485px)
+{
+    .contacttime
+    {
+        font-size: 0.7rem;
+        padding-left: 0.1rem;
+    }
+
+    .contactlist
+    {
+        font-size: 0.7rem;
+        margin-left: 0.2rem;
+    }
+
+    .social
+    {
+        font-size: 0.7rem;
+        padding-right: 0.5rem;
+    }
+
+    #id1
+    {
+        font-size: 0.7rem;
+    }
+
+    .iconsize
+    {
+        height: .7rem;
+    }
+
+    .logo
+    {
+        height: 1.5rem;
+        width: 4rem;
+    }
+
+    .logotext
+    {
+        left: 4.9rem;
+        top: 5rem;
+    }
+
+    #l1
+    {
+        font-size: 1.4rem;
+        height: 1.5rem;
+        padding: 0.2rem 0.9rem 1.9rem 1.2rem;
+    }
+
+    #l2
+    {
+        font-size: 1.9rem;
+    }
+
+    #btn1
+    {
+        height: 1.8rem;
+        width: 8rem;
+        padding-bottom: 1.9rem;
+        margin-top: 0.3rem;
+    }
+
+    .image img
+    {
+        margin-left: 2.2rem;
+    }
+
+    .info
+    {
+        top: 11.2rem;
+        margin-left: 2.2rem;
+    }
+
+    .btns
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #aptbtn1
+    {
+        height: 3.5rem;
+        width: 13rem;
+        font-weight: bold;
+        margin-left: 1.5rem;
+        margin-bottom: 1.4rem;
+    }
+
+    .aptsection
+    {
+        margin-left: 1.5rem;
+    }
+
+    #pimg
+    {
+        margin-top: 0.5rem;
+        margin-left: 1.2rem;
+        position: relative;
+        height: 10.5rem;
+        width: 18.9rem;
+    }
+
+    #pimg1
+    {
+        margin-left: 1.2rem;
+    }
+
+    #pimg2
+    {
+        margin-left: 1.2rem;
+    }
+    
+    .pricesec
+    {
+        padding-top: 2.2rem;
+    }
+
+    .feedp1
+
+    {
+        font-size: 0.9rem;
+        padding: 1.2rem 0.3rem 1rem 1rem;
+        margin-left: 4.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .feedp2
+    {
+        font-size: 0.9rem;
+        margin-left: 4.2rem;
+        padding: 1.2rem 0.3rem 1rem 1rem;
+     
+        margin-bottom: 2rem;
+    }
+
+    .feedp3
+    {
+        font-size: 0.9rem;
+        margin-left: 4.2rem;
+        padding: 1.2rem 0.3rem 1rem 1rem;
+    }
+
+    .mfooter
+    {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    #contactlinks
+    {
+        padding-top: 0;
+    }
+
+    .col1
+    {
+        margin-left: 2.5rem;
+    }
+    #uselinks
+    {
+        padding-bottom: 0.5rem; font-weight: 500;
+        font-size: 0.9rem;
+    }
+    .lists
+    {
+        font-size: 0.6rem;    
+    }
+
+    .pbtn1
+    {   
+    
+        /* margin: 18.5rem 0 0rem 3.5rem; */
+        margin-left: 6rem;
+        color: black;
+    }
+
+    .pbtn2
+    {   
+    
+        margin-left: 6rem;
+    }
+
+    .pbtn3
+    {   
+        margin-left: 6rem;
+    }
+    .pbtn4
+    {   
+        margin-left: 6rem;
+    }
+
+}
